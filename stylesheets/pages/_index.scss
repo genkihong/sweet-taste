@@ -1,0 +1,47 @@
+
+// 圖片和文字區
+.max-h-420{
+  max-height: 420px;
+}
+.bg-main-1{
+  background-image: url(https://bit.ly/2xPn7Eq);
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+.bg-main-2{
+  background-image: url(https://bit.ly/2zzAQS4);
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+
+
+.p-content{
+  writing-mode: vertical-rl;
+  padding: 65px 80px 65px 0;
+  line-height: 2;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 768px){
+  .p-content{
+    writing-mode: horizontal-tb;
+    padding: 30px;
+  }
+}
+
+.product-img-1{
+  position: relative;    
+  background-image: url(https://bit.ly/2zBjQuq);
+  height: 315px;
+}
+.product-img-2{
+  position: relative;  
+  background-image: url(https://bit.ly/2zBDAxX);
+  height: 315px;
+}
+.product-img-3{
+  position: relative;
+  background-image: url(https://bit.ly/2QbVsVR);
+  height: 315px;
+}
+  

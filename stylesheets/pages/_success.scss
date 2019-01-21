@@ -1,0 +1,16 @@
+.success-bar{
+  position: relative;
+  &::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 60%;
+    height: 1px;
+    background-color: $primary;
+  }
+}
+
+.fa-check-circle{
+  background: $lighter;
+  z-index: 1;
+}

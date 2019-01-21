@@ -1,0 +1,75 @@
+$main-height: 496px;
+
+header{
+  .banner-1{
+    background-image: url(https://bit.ly/2OhbMHr);
+    background-repeat: no-repeat;
+    height: $main-height;
+  }
+  .banner-2{
+    position: relative;
+    background-image: url(https://bit.ly/2Qodh3Z);
+    background-repeat: no-repeat;
+    height: $main-height;
+  }
+  .banner-3{
+    background-image: url(https://bit.ly/2P7GhNd);
+    background-repeat: no-repeat;
+    height: 460px;
+  }
+}
+
+@media (max-width: 768px){
+  header{
+    .banner-1, .banner-2{
+      height: 73.87vw;
+      max-height: $main-height;
+    }
+  }
+}
+.sub-banner{
+  margin-top: -90px;
+  ul{
+    height: 256px;
+  }
+  li{
+    position: relative;
+    width: 25%;
+    overflow: hidden;
+  }
+  div{
+    position: absolute;
+  }
+  span{
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 10px;
+  }
+}
+@media (max-width: 768px){
+  .sub-banner{
+    margin-top: -8px;
+    ul{
+      height: 180px;
+    }
+    li{
+      width: 100%;
+    }
+  }
+}
+// banner 圖片
+.bg-feature-1{
+  background-image: url(https://bit.ly/2R5tqwD);
+  background-repeat: no-repeat;
+  filter: blur(3px);
+}
+.bg-feature-2{
+  background-image: url(https://bit.ly/2Dwoxd7);
+  background-repeat: no-repeat;
+  filter: blur(3px);
+}
+.bg-feature-3{
+  background-image: url(https://bit.ly/2OUteif);
+  background-repeat: no-repeat;
+  filter: blur(3px);
+}

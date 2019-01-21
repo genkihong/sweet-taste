@@ -1,0 +1,31 @@
+.divider{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  &::before, &::after{
+    flex-grow: 1;
+    content: "";
+    margin: 0 1rem;
+    max-width: 60px;
+    border-top: 1px solid $light;
+  }
+}
+
+.social-img{
+  div{
+    height: 56px;
+    border: 1px solid $lighter;
+  }
+  a{
+    padding: 15px;
+    border-radius: 0;
+  }
+}
+
+.login-icon{
+  position: absolute;
+  top: 1rem;
+  left: 1.25rem;
+}
+

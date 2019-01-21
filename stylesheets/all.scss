@@ -1,0 +1,21 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navbar";
+
+// pages
+@import "pages/index";
+@import "pages/product";
+@import "pages/login";
+@import "pages/cart";
+@import "pages/checkout";
+@import "pages/success";
+
+// component
+@import "components/cards";
+@import "components/icon";
+@import "components/utilities";
