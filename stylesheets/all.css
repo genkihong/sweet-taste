@@ -12512,6 +12512,11 @@ header .banner {
   background: #EAF0ED;
 }
 
+.bg-successed {
+  background-repeat: no-repeat;
+  height: 460px;
+}
+
 .success-bar {
   position: relative;
 }
