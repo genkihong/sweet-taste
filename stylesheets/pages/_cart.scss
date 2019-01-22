@@ -26,8 +26,6 @@
 .cart-icon{
   vertical-align: middle;
 }
-
-
 @media (max-width: 768px){
   .cart-bar{
     margin: .5rem 0;
@@ -41,7 +39,7 @@
 
 .order-list{
   color: $lighter;
-  background-color: $primary;
+  background: $primary;
   .order-title{
     padding-bottom: 1rem;
     margin-bottom: 1rem;
@@ -52,11 +50,11 @@
 @media (max-width: 576px){
   .order-list{
     color: $primary;
-    background-color: transparent;
+    background: transparent;
     .order-title{
       padding: 1rem;
       border: 0;
-      background-color: $lighter;
+      background: $lighter;
     }
   }
 }

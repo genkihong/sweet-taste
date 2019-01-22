@@ -1,27 +1,15 @@
 $main-height: 496px;
 
 header{
-  .banner-1{
-    background-image: url(https://bit.ly/2OhbMHr);
-    background-repeat: no-repeat;
-    height: $main-height;
-  }
-  .banner-2{
+  .banner{
     position: relative;
-    background-image: url(https://bit.ly/2Qodh3Z);
     background-repeat: no-repeat;
     height: $main-height;
-  }
-  .banner-3{
-    background-image: url(https://bit.ly/2P7GhNd);
-    background-repeat: no-repeat;
-    height: 460px;
   }
 }
-
 @media (max-width: 768px){
   header{
-    .banner-1, .banner-2{
+    .banner{
       height: 73.87vw;
       max-height: $main-height;
     }
@@ -57,19 +45,8 @@ header{
     }
   }
 }
-// banner 圖片
-.bg-feature-1{
-  background-image: url(https://bit.ly/2R5tqwD);
-  background-repeat: no-repeat;
-  filter: blur(3px);
-}
-.bg-feature-2{
-  background-image: url(https://bit.ly/2Dwoxd7);
-  background-repeat: no-repeat;
-  filter: blur(3px);
-}
-.bg-feature-3{
-  background-image: url(https://bit.ly/2OUteif);
+// sub banner 圖片
+.bg-feature{
   background-repeat: no-repeat;
   filter: blur(3px);
 }

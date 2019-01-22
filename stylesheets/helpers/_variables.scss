@@ -72,7 +72,7 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         #8DA291 !default;//$gray-100 !default;
+$light:         #8DA291 !default;//$gray-100 !default;  自訂
 $dark:          $gray-800 !default;
 $accent:        #FFE180 !default;
 $lighter:       #EAF0ED !default;
@@ -87,7 +87,7 @@ $theme-colors: map-merge(
     "info":       $info,
     "warning":    $warning,
     "danger":     $danger,
-    "light":      $light,   //自訂
+    "light":      $light,  //自訂
     "dark":       $dark,
     "accent":     $accent, //自訂
     "lighter":    $lighter //自訂
@@ -105,7 +105,7 @@ $theme-color-interval:      8% !default;
 $yiq-contrasted-threshold:  150 !default;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
-$yiq-text-dark:             $primary !default;//$gray-900 !default;
+$yiq-text-dark:             $primary !default;//$gray-900 !default; //自訂
 $yiq-text-light:            $white !default;
 
 
@@ -176,7 +176,7 @@ $sizes: map-merge(
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $primary !default;//$gray-900 !default;
+$body-color:                $primary !default;//$gray-900 !default; //自訂
 
 
 // Links
@@ -243,7 +243,7 @@ $container-max-widths: map-merge(
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           20px !default;//30px !default;
+$grid-gutter-width:           20px !default;//30px !default;  //自訂
 
 
 // Components
@@ -254,7 +254,7 @@ $line-height-lg:              1.5 !default;
 $line-height-sm:              1.5 !default;
 
 $border-width:                1px !default;
-$border-color:                $lighter !default;//$gray-300 !default;
+$border-color:                $lighter !default;//$gray-300 !default; //自訂
 
 $border-radius:               .25rem !default;
 $border-radius-lg:            .3rem !default;
@@ -298,7 +298,7 @@ $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-lg:                ($font-size-base * 1.5) !default;//($font-size-base * 1.25) !default; //自訂
 $font-size-sm:                ($font-size-base * .875) !default;
 
 $font-weight-lighter:         lighter !default;
@@ -412,7 +412,7 @@ $input-btn-padding-x-sm:      .5rem !default;
 $input-btn-font-size-sm:      $font-size-sm !default;
 $input-btn-line-height-sm:    $line-height-sm !default;
 
-$input-btn-padding-y-lg:      .5rem !default;
+$input-btn-padding-y-lg:      .875rem;//.5rem !default; //自訂
 $input-btn-padding-x-lg:      1rem !default;
 $input-btn-font-size-lg:      $font-size-lg !default;
 $input-btn-line-height-lg:    $line-height-lg !default;
@@ -454,7 +454,7 @@ $btn-block-spacing-y:         .5rem !default;
 
 // Allows for customizing button radius independently from global border radius
 $btn-border-radius:           $border-radius !default;
-$btn-border-radius-lg:        $border-radius-lg !default;
+$btn-border-radius-lg:        0;//$border-radius-lg !default; //自訂
 $btn-border-radius-sm:        $border-radius-sm !default;
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;

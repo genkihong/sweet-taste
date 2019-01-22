@@ -2130,9 +2130,9 @@ select.form-control:focus::-ms-value {
 }
 
 .col-form-label-lg {
-  padding-top: calc(0.5rem + 1px);
-  padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.25rem;
+  padding-top: calc(0.875rem + 1px);
+  padding-bottom: calc(0.875rem + 1px);
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -2170,9 +2170,9 @@ select.form-control:focus::-ms-value {
 }
 
 .form-control-lg {
-  height: calc(2.875rem + 2px);
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  height: calc(4rem + 2px);
+  padding: 0.875rem 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -3367,10 +3367,10 @@ fieldset:disabled a.btn {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  padding: 0.875rem 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -3977,7 +3977,7 @@ input[type="button"].btn-block {
 
 .input-group-lg > .form-control:not(textarea),
 .input-group-lg > .custom-select {
-  height: calc(2.875rem + 2px);
+  height: calc(4rem + 2px);
 }
 
 .input-group-lg > .form-control,
@@ -3986,8 +3986,8 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  padding: 0.875rem 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -4247,11 +4247,11 @@ input[type="button"].btn-block {
 }
 
 .custom-select-lg {
-  height: calc(2.875rem + 2px);
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  height: calc(4rem + 2px);
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
   padding-left: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .custom-file {
@@ -4640,10 +4640,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4694,7 +4694,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -5450,7 +5450,7 @@ input[type="button"].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -12210,27 +12210,14 @@ a.text-lighter:hover, a.text-lighter:focus {
   }
 }
 
-header .banner-1 {
-  background-image: url(https://bit.ly/2OhbMHr);
-  background-repeat: no-repeat;
-  height: 496px;
-}
-
-header .banner-2 {
+header .banner {
   position: relative;
-  background-image: url(https://bit.ly/2Qodh3Z);
   background-repeat: no-repeat;
   height: 496px;
-}
-
-header .banner-3 {
-  background-image: url(https://bit.ly/2P7GhNd);
-  background-repeat: no-repeat;
-  height: 460px;
 }
 
 @media (max-width: 768px) {
-  header .banner-1, header .banner-2 {
+  header .banner {
     height: 73.87vw;
     max-height: 496px;
   }
@@ -12272,22 +12259,7 @@ header .banner-3 {
   }
 }
 
-.bg-feature-1 {
-  background-image: url(https://bit.ly/2R5tqwD);
-  background-repeat: no-repeat;
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
-}
-
-.bg-feature-2 {
-  background-image: url(https://bit.ly/2Dwoxd7);
-  background-repeat: no-repeat;
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
-}
-
-.bg-feature-3 {
-  background-image: url(https://bit.ly/2OUteif);
+.bg-feature {
   background-repeat: no-repeat;
   -webkit-filter: blur(3px);
           filter: blur(3px);
@@ -12318,14 +12290,7 @@ header .banner-3 {
   max-height: 420px;
 }
 
-.bg-main-1 {
-  background-image: url(https://bit.ly/2xPn7Eq);
-  background-repeat: no-repeat;
-  min-height: 250px;
-}
-
-.bg-main-2 {
-  background-image: url(https://bit.ly/2zzAQS4);
+.bg-main {
   background-repeat: no-repeat;
   min-height: 250px;
 }
@@ -12348,40 +12313,23 @@ header .banner-3 {
   }
 }
 
-.product-img-1 {
-  position: relative;
-  background-image: url(https://bit.ly/2zBjQuq);
-  height: 315px;
-}
-
-.product-img-2 {
-  position: relative;
-  background-image: url(https://bit.ly/2zBDAxX);
-  height: 315px;
-}
-
-.product-img-3 {
-  position: relative;
-  background-image: url(https://bit.ly/2QbVsVR);
-  height: 315px;
-}
-
-.banner-2 img {
+.product-logo {
   position: absolute;
   top: 40px;
-  right: 80px;
-  height: 66%;
+  right: 40px;
 }
 
-@media (max-width: 768px) {
-  .banner-2 img {
+@media (max-width: 576px) {
+  .product-logo {
+    top: 30px;
     right: 30px;
   }
 }
 
 @media (max-width: 320px) {
-  .banner-2 img {
-    top: 30px;
+  .product-logo {
+    top: 20px;
+    right: 20px;
   }
 }
 
@@ -12419,14 +12367,18 @@ header .banner-3 {
   border-top: 1px solid #8DA291;
 }
 
-.social-img div {
+.social-img {
   height: 56px;
   border: 1px solid #EAF0ED;
+  padding: 14px;
+  border-radius: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
-.social-img a {
-  padding: 15px;
-  border-radius: 0;
+.social-img:hover {
+  border: 1px solid #8DA291;
+  background: #EAF0ED;
 }
 
 .login-icon {
@@ -12482,7 +12434,7 @@ header .banner-3 {
 
 .order-list {
   color: #EAF0ED;
-  background-color: #3F5D45;
+  background: #3F5D45;
 }
 
 .order-list .order-title {
@@ -12495,12 +12447,12 @@ header .banner-3 {
 @media (max-width: 576px) {
   .order-list {
     color: #3F5D45;
-    background-color: transparent;
+    background: transparent;
   }
   .order-list .order-title {
     padding: 1rem;
     border: 0;
-    background-color: #EAF0ED;
+    background: #EAF0ED;
   }
 }
 
@@ -12536,23 +12488,26 @@ header .banner-3 {
   height: 80px;
 }
 
-.checkout-icon {
+.credit-card-icon {
   position: absolute;
   top: 150px;
   right: 60px;
 }
 
-form .btn-lg, form .btn-group-lg > .btn {
-  padding: 13px 16px;
+.invoice {
+  padding: 13px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 0;
 }
 
-.invoice {
+.invoice-hover {
   color: #EAF0ED;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-.invoice:hover {
+.invoice-hover:hover {
   color: #3F5D45;
   background: #EAF0ED;
 }
@@ -12578,8 +12533,6 @@ form .btn-lg, form .btn-group-lg > .btn {
 .card-image {
   position: relative;
   height: 315px;
-  background-size: cover;
-  background-position: center center;
 }
 
 .card-tag {
@@ -12621,17 +12574,12 @@ form .btn-lg, form .btn-group-lg > .btn {
 }
 
 .card-btn {
-  padding: 1rem;
-  font-size: 1.5rem;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border-radius: 0;
-  background-color: #EAF0ED;
-  border: 1px solid #EAF0ED;
 }
 
 .card-btn:hover {
-  background-color: #3F5D45;
+  background: #3F5D45;
   color: #EAF0ED;
 }
 
@@ -12680,12 +12628,6 @@ form .btn-lg, form .btn-group-lg > .btn {
     margin-top: -20px;
     margin-bottom: -20px;
   }
-}
-
-.btn-size {
-  padding: 1rem;
-  font-size: 1.5rem;
-  border-radius: 0;
 }
 
 @media (max-width: 576px) {

@@ -81,22 +81,22 @@
             <form class="h5 mb-0">
               <div class="form-group">
                 <label for="credit-card">信用卡卡號</label>
-                <input type="number" class="form-control rounded-0 position-relative" id="credit-card" placeholder="2019-0120-0520-1314">
-                <i class="text-primary material-icons checkout-icon">credit_card</i>
+                <input type="number" class="form-control rounded-0" id="credit-card" placeholder="2019-0120-0520-1314">
+                <i class="text-primary material-icons credit-card-icon">credit_card</i>
               </div>
-              <label>持卡人姓名</label>
+              <label for="username">持卡人姓名</label>
               <div class="form-row">
                 <div class="form-group col-6">
-                  <input type="text" class="form-control rounded-0" placeholder="王">
+                  <input type="text" class="form-control rounded-0" id="username" placeholder="王">
                 </div>
                 <div class="form-group col-6">
                   <input type="text" class="form-control rounded-0" placeholder="小明">
                 </div>
               </div>
-              <label for="">有效期限</label>
+              <label for="month">有效期限</label>
               <div class="form-row">
                 <div class="form-group col-6">
-                  <select id="city" class="form-control rounded-0">
+                  <select id="month" class="form-control rounded-0">
                     <option selected>月</option>
                     <option>1 月</option>
                     <option>2 月</option>
@@ -113,7 +113,7 @@
                   </select>
                 </div>
                 <div class="form-group col-6">
-                  <select id="zip" class="form-control rounded-0">
+                  <select id="year" class="form-control rounded-0">
                     <option selected>年</option>
                     <option>2019</option>
                     <option>2020</option>
@@ -123,14 +123,14 @@
                   </select>
                 </div>
                 <div class="form-group col-6 mb-0">
-                  <label for="">背面末三碼</label>
-                  <input type="number" class="form-control rounded-0" id="" placeholder="520">
+                  <label for="three">背面末三碼</label>
+                  <input type="number" class="form-control rounded-0" id="three" placeholder="520">
                 </div>
               </div>
             </form>
           </div>
           <div class="row-negative-margin">
-            <a class="btn btn-block btn-accent btn-size" href="checkout-3-1.html">
+            <a class="btn btn-block btn-accent btn-lg" href="checkout-3-1.html">
               <strong>下一步</strong>
             </a>
           </div>
@@ -204,7 +204,7 @@
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-5 d-flex align-items-center justify-content-center justify-content-md-start">
           <img src="images/logo-light.svg" width="40" alt="">
-          <span class="h4 text-white ml-1 ml-sm-2 mb-0">訂閱你我的甜蜜郵件</span>
+          <span class="h4 text-lighter ml-1 ml-sm-2 mb-0">訂閱你我的甜蜜郵件</span>
         </div>
         <div class="col-md-6 col-lg-5 d-flex mt-3 mt-md-0">
           <input type="email" class="form-control rounded-0 pl-5">

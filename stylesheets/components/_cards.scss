@@ -1,9 +1,6 @@
 .card-image{
   position: relative;
   height: 315px;
-  background-size: cover;
-  background-position: center center;
-  
 }
 .card-tag{
   position: absolute;
@@ -34,14 +31,9 @@
   border-right: 1px solid $lighter;
 }
 .card-btn{
-  padding: 1rem;
-  font-size: 1.5rem;
   transition: all .3s;
-  border-radius: 0;
-  background-color: $lighter;
-  border: 1px solid $lighter;
   &:hover{
-    background-color: $primary;
+    background: $primary;
     color: $lighter;
   }
 }
