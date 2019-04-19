@@ -6,7 +6,7 @@ https://genkihong.github.io/sweet-taste/
 
 ## Technique
 * BootStrap 4 自訂樣式 
-* SCSS
+* SASS
 
 ## Source
 [六角學院](https://tinyurl.com/y4x8e56c)
